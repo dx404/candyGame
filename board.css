@@ -1,0 +1,36 @@
+table.candyGameBoad {
+	border : 1px
+}
+
+table, th, td {
+	text-align:center;
+}
+
+td.cell{
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+}
+
+td.cell:hover {
+	background-color:lightyellow;
+}
+
+td.border {
+	font-weight:bold;
+}
+
+td[data-status=V] {
+	background-color:rgb(192, 192, 0);
+}
+
+td[data-status=B] {
+	background-color:lightblue;
+}
+td[data-status=G] {
+	background-color:lightgreen;
+}
+
+#scoreBoad {
+    font-size: 150%;
+}
